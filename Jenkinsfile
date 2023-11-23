@@ -19,11 +19,6 @@ pipeline {
                 sh 'sudo docker image push iammithran/newimage:${BUILD_NUMBER}'
             }
         }
-        stage('Deploy on Kubernetes') {
-            steps {
-                sh 'kubectl apply -f /var/lib/jenkins/workspace/kuber/pod.yaml'
-                sh 'kubectl rollout restart deployment loadbalancer-pod'
-            }
-        }
+        
     }
 }
