@@ -1,3 +1,8 @@
+## Author : ARUNKUMAAR R
+## Description : Creating Docker Image for Python APP
+## Date : 16/02/24
+## Language : DockerFile
+
 FROM python:3.9  
 WORKDIR /code
 COPY ./requirements.txt /code/requirements.txt

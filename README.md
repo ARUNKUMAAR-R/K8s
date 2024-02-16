@@ -1,2 +1,2 @@
 # K8s
-K8s project
+Simple K8s Project

@@ -1,3 +1,8 @@
+## Author : ARUNKUMAAR R
+## Description : Creating Jenkins Pipeline to pull code, Build & push Docker Image
+## Date : 16/02/24
+## Language : GROOVY Script
+
 pipeline {
     agent any
     stages {
